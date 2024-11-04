@@ -1,0 +1,42 @@
+.logo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mainft {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    gap: 1rem;
+}
+.imgft{
+    margin-left: -5px;
+}
+.div1 {
+    width: 80%;
+}
+
+.ft {
+    background-color: #183153;
+}
+
+@media (max-width: 992px) {
+    .mainft {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .div1 {
+        width: 100%;
+    }
+    .row .col-6 {
+        margin-bottom: 1rem;
+    }
+}

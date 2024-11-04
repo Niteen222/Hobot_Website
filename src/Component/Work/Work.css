@@ -1,0 +1,15 @@
+.responsive-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .responsive-text {
+        width: 100%;
+    }
+}
+
+.img1{
+    background-color: #c7eaf4;
+}
